@@ -1,0 +1,1 @@
+/workspace/frontend/src/app/(dashboard)/vehicles/page.tsx:65:            <Select value={typeFilter} onValueChange={setTypeFilter}>

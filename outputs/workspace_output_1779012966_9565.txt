@@ -1,0 +1,13 @@
+            className="flex items-center justify-center gap-4"
+          >
+            <Button size="lg" className="gradient-primary text-white border-0 px-8 h-12 text-base" asChild>
+              <Link href="/register">
+                Get Started Free <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
+            </Button>
+            <Button size="lg" variant="outline" className="h-12 px-8 text-base" asChild>
+              <Link href="/dashboard">
+                <Play className="mr-2 w-4 h-4" /> Live Demo
+              </Link>
+            </Button>
+          </motion.div>

@@ -1,0 +1,1 @@
+User is from NinjaTech AI, a US startup based in Palo Alto

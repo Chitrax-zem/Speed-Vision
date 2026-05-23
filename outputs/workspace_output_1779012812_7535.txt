@@ -1,0 +1,13 @@
+export type PieLabelRenderProps = Omit<SVGPropsNoEvents<PieSvgAttributes>, 'offset'> & Omit<PieSectorDataItem, 'offset'> & PieLabelExtraProps & Coordinate;
+export type LabelListPropsWithPosition = LabelListProps & {
+    position: LabelListProps['position'];
+};
+/**
+ * The `label` prop in Pie accepts a variety of alternatives.
+--
+export type PieLabel = boolean | LabelListPropsWithPosition | Partial<PieLabelRenderProps> | ((props: PieLabelRenderProps) => ReactNode | ReactElement<SVGElement>) | ReactElement<SVGElement>;
+export type PieSectorData = GeometrySector & TooltipTriggerInfo & {
+    dataKey?: DataKey<any>;
+    midAngle?: number;
+    middleRadius?: number;
+    name?: string | number;

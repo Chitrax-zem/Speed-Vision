@@ -1,0 +1,11 @@
+          <p className="text-muted-foreground mt-1">Manage camera feeds and stream settings</p>
+        </div>
+        <Dialog open={showAdd} onOpenChange={setShowAdd}>
+          <DialogTrigger asChild>
+            <Button className="gradient-primary text-white border-0">
+              <Plus className="mr-2 w-4 h-4" />Add Camera
+            </Button>
+          </DialogTrigger>
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Add New Camera</DialogTitle>

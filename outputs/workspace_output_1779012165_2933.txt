@@ -1,0 +1,30 @@
+  [90m 7 |[0m [36mimport[0m { [33mInput[0m } [36mfrom[0m [32m'@/components/ui/input'[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m {
+  [90m   |[0m [31m[1m^^^^^^^[0m
+[31m[1m>[0m [90m 9 |[0m   [33mTable[0m, [33mTableBody[0m, [33mTableCell[0m, [33mTableHead[0m, [33mTableHeader[0m, [33mTableRow[0m,
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[31m[1m>[0m [90m10 |[0m } [36mfrom[0m [32m'@/components/ui/table'[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m11 |[0m [36mimport[0m {
+  [90m12 |[0m   [33mSelect[0m, [33mSelectContent[0m, [33mSelectItem[0m, [33mSelectTrigger[0m, [33mSelectValue[0m,
+  [90m13 |[0m } [36mfrom[0m [32m'@/components/ui/select'[0m;
+
+Import map: aliased to relative './src/components/ui/table' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(dashboard)/vehicles/page.tsx [Client Component Browser]
+    ./src/app/(dashboard)/vehicles/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(dashboard)/vehicles/page.tsx [Client Component SSR]
+    ./src/app/(dashboard)/vehicles/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [/workspace/frontend/.next/build/chunks/[root-of-the-server]__0d-m0h0._.js:146:36])
+    at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23) [/workspace/frontend/.next/build/chunks/[root-of-the-server]__0ubbtyl._.js:443:31])
+    at <unknown> (./src/app/(dashboard)/vehicles/page.tsx:8:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)

@@ -1,0 +1,7 @@
+- Checking registry.
+✔ Checking registry.
+- Updating files.
+✔ Created 3 files:
+  - src/components/ui/table.tsx
+  - src/components/ui/textarea.tsx
+  - src/components/ui/alert.tsx

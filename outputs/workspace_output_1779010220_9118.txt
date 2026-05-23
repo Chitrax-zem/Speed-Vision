@@ -1,0 +1,10 @@
+- Updating files.
+✔ Created 2 files:
+  - src/components/ui/button.tsx
+  - src/lib/utils.ts
+- Updating src/app/globals.css
+✔ Updating src/app/globals.css
+
+Project initialization completed.
+You may now add components.
+

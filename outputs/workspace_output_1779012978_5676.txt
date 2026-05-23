@@ -1,0 +1,11 @@
+              Join thousands of organizations using SpeedVision for intelligent traffic management.
+            </p>
+            <div className="flex items-center justify-center gap-4">
+              <Button size="lg" className="gradient-primary text-white border-0 px-8 h-12" asChild>
+                <Link href="/register">Start Free Trial <ArrowRight className="ml-2 w-4 h-4" /></Link>
+              </Button>
+            </div>
+            <div className="flex items-center justify-center gap-6 mt-8 text-sm text-muted-foreground">
+              <span className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-500" /> No credit card</span>
+              <span className="flex items-center gap-2"><Globe className="w-4 h-4 text-blue-500" /> Cloud ready</span>
+              <span className="flex items-center gap-2"><Shield className="w-4 h-4 text-purple-500" /> Enterprise security</span>

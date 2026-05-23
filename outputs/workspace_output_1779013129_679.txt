@@ -1,0 +1,30 @@
+
+> frontend@0.1.0 build
+> next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+▲ Next.js 16.2.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 9.7s
+  Running TypeScript ...
+Failed to type check.
+
+./src/app/(dashboard)/settings/page.tsx:70:35
+Type error: Type 'Dispatch<SetStateAction<string>>' is not assignable to type '(value: string | null, eventDetails: SelectRootChangeEventDetails) => void'.
+  Types of parameters 'value' and 'value' are incompatible.
+    Type 'string | null' is not assignable to type 'SetStateAction<string>'.
+      Type 'null' is not assignable to type 'SetStateAction<string>'.
+
+  [90m68 |[0m               <p className=[32m"text-xs text-muted-foreground"[0m>[33mChoose[0m your preferred theme</p>
+  [90m69 |[0m             </div>
+[31m[1m>[0m [90m70 |[0m             <[33mSelect[0m value={theme} onValueChange={setTheme}>
+  [90m   |[0m                                   [31m[1m^[0m
+  [90m71 |[0m               <[33mSelectTrigger[0m className=[32m"w-32"[0m>
+  [90m72 |[0m                 <[33mSelectValue[0m />
+  [90m73 |[0m               </[33mSelectTrigger[0m>
+Next.js build worker exited with code: 1 and signal: null

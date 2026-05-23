@@ -1,0 +1,21 @@
+            <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+          </Button>
+
+          {isAuthenticated ? (
+            <Button asChild>
+              <Link href="/dashboard">Dashboard</Link>
+            </Button>
+          ) : (
+            <div className="flex items-center gap-2">
+              <Button variant="ghost" asChild>
+                <Link href="/login">Sign In</Link>
+              </Button>
+              <Button asChild>
+                <Link href="/register">Get Started</Link>
+              </Button>
+            </div>
+          )}
+        </div>
+      </div>
+    </motion.header>
+  );

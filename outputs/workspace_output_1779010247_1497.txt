@@ -1,0 +1,10 @@
+    <html lang="en">
+      <body>
+        <TooltipProvider>{children}</TooltipProvider>
+      </body>
+    </html>
+  )
+}
+```
+
+

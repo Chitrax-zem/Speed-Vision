@@ -1,0 +1,6 @@
+/workspace/frontend/src/app/(dashboard)/dashboard/page.tsx:268:                <Button className="gradient-primary text-white border-0" asChild>
+/workspace/frontend/src/app/(dashboard)/dashboard/page.tsx:271:                <Button variant="outline" asChild>
+/workspace/frontend/src/app/(dashboard)/camera/page.tsx:38:          <DialogTrigger asChild>
+/workspace/frontend/src/app/page.tsx:115:            <Button size="lg" className="gradient-primary text-white border-0 px-8 h-12 text-base" asChild>
+/workspace/frontend/src/app/page.tsx:120:            <Button size="lg" variant="outline" className="h-12 px-8 text-base" asChild>
+/workspace/frontend/src/app/page.tsx:223:              <Button size="lg" className="gradient-primary text-white border-0 px-8 h-12" asChild>

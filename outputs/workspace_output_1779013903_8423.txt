@@ -1,0 +1,28 @@
+
+> frontend@0.1.0 build
+> next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+▲ Next.js 16.2.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 9.7s
+  Running TypeScript ...
+Failed to type check.
+
+./src/components/layout/navbar.tsx:39:21
+Type error: Type '{ children: Element; asChild: true; }' is not assignable to type 'IntrinsicAttributes & ButtonProps & VariantProps<(props?: (ConfigVariants<{ variant: { default: string; outline: string; secondary: string; ghost: string; destructive: string; link: string; }; size: { ...; }; }> & ClassProp) | undefined) => string>'.
+  Property 'asChild' does not exist on type 'IntrinsicAttributes & ButtonProps & VariantProps<(props?: (ConfigVariants<{ variant: { default: string; outline: string; secondary: string; ghost: string; destructive: string; link: string; }; size: { ...; }; }> & ClassProp) | undefined) => string>'.
+
+  [90m37 |[0m
+  [90m38 |[0m           {isAuthenticated ? (
+[31m[1m>[0m [90m39 |[0m             <[33mButton[0m asChild>
+  [90m   |[0m                     [31m[1m^[0m
+  [90m40 |[0m               <[33mLink[0m href=[32m"/dashboard"[0m>[33mDashboard[0m</[33mLink[0m>
+  [90m41 |[0m             </[33mButton[0m>
+  [90m42 |[0m           ) : (
+Next.js build worker exited with code: 1 and signal: null

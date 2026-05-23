@@ -1,0 +1,16 @@
+9:function DropdownMenu({ ...props }: MenuPrimitive.Root.Props) {
+13:function DropdownMenuPortal({ ...props }: MenuPrimitive.Portal.Props) {
+17:function DropdownMenuTrigger({ ...props }: MenuPrimitive.Trigger.Props) {
+28:}: MenuPrimitive.Popup.Props &
+30:    MenuPrimitive.Positioner.Props,
+52:function DropdownMenuGroup({ ...props }: MenuPrimitive.Group.Props) {
+60:}: MenuPrimitive.GroupLabel.Props & {
+81:}: MenuPrimitive.Item.Props & {
+99:function DropdownMenuSub({ ...props }: MenuPrimitive.SubmenuRoot.Props) {
+108:}: MenuPrimitive.SubmenuTrigger.Props & {
+134:}: React.ComponentProps<typeof DropdownMenuContent>) {
+154:}: MenuPrimitive.CheckboxItem.Props & {
+182:function DropdownMenuRadioGroup({ ...props }: MenuPrimitive.RadioGroup.Props) {
+196:}: MenuPrimitive.RadioItem.Props & {
+226:}: MenuPrimitive.Separator.Props) {
+239:}: React.ComponentProps<"span">) {

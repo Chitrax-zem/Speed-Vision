@@ -1,0 +1,3 @@
+115:            <Button size="lg" className="gradient-primary text-white border-0 px-8 h-12 text-base" asChild>
+120:            <Button size="lg" variant="outline" className="h-12 px-8 text-base" asChild>
+223:              <Button size="lg" className="gradient-primary text-white border-0 px-8 h-12" asChild>

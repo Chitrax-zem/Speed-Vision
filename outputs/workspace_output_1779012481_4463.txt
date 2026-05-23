@@ -1,0 +1,2 @@
+53:  const [timeRange, setTimeRange] = useState('24h');
+63:          <Select value={timeRange} onValueChange={setTimeRange}>

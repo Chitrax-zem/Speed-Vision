@@ -1,0 +1,27 @@
+
+> frontend@0.1.0 build
+> next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+▲ Next.js 16.2.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 9.8s
+  Running TypeScript ...
+Failed to type check.
+
+./src/app/(dashboard)/upload/page.tsx:136:21
+Type error: Type 'unknown' is not assignable to type 'ReactNode'.
+
+  [90m134 |[0m                 {jobStatus.results && [36mtypeof[0m jobStatus.results === [32m'object'[0m && [32m'statistic..[0m.
+  [90m135 |[0m                   <div className=[32m"grid grid-cols-3 gap-4 pt-4 border-t border-border/50"[0m>
+[31m[1m>[0m [90m136 |[0m                     {(jobStatus.results [36mas[0m [33mRecord[0m<string, unknown>).statistics && [33mObject[0m....
+  [90m    |[0m                     [31m[1m^[0m
+  [90m137 |[0m                       .filter(([k]) => [[32m'total_vehicles_detected'[0m, [32m'total_overspeed_event..[0m.
+  [90m138 |[0m                       .map(([key, val]) => (
+  [90m139 |[0m                         <div key={key} className=[32m"text-center"[0m>
+Next.js build worker exited with code: 1 and signal: null

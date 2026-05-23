@@ -1,0 +1,368 @@
+/workspace/.agent_hooks/run_all_hooks.py
+/workspace/.agent_hooks/shutdown/00_track_processes_on_ports.py
+/workspace/.agent_hooks/shutdown/_readme.txt
+/workspace/.agent_hooks/startup/_readme.txt
+/workspace/.browser_data/BrowserMetrics-spare.pma
+/workspace/.browser_data/Default/AccessibilityAnnotatorDatabase
+/workspace/.browser_data/Default/AccessibilityAnnotatorDatabase-wal
+/workspace/.browser_data/Default/Account Web Data
+/workspace/.browser_data/Default/Account Web Data-journal
+/workspace/.browser_data/Default/Affiliation Database
+/workspace/.browser_data/Default/Affiliation Database-journal
+/workspace/.browser_data/Default/AutofillAiModelCache/LOCK
+/workspace/.browser_data/Default/AutofillAiModelCache/LOG
+/workspace/.browser_data/Default/AutofillAiModelCache/LOG.old
+/workspace/.browser_data/Default/AutofillStrikeDatabase/LOCK
+/workspace/.browser_data/Default/AutofillStrikeDatabase/LOG
+/workspace/.browser_data/Default/AutofillStrikeDatabase/LOG.old
+/workspace/.browser_data/Default/BookmarkMergedSurfaceOrdering
+/workspace/.browser_data/Default/BrowsingTopicsSiteData
+/workspace/.browser_data/Default/BrowsingTopicsSiteData-journal
+/workspace/.browser_data/Default/BrowsingTopicsState
+/workspace/.browser_data/Default/BudgetDatabase/LOCK
+/workspace/.browser_data/Default/BudgetDatabase/LOG
+/workspace/.browser_data/Default/BudgetDatabase/LOG.old
+/workspace/.browser_data/Default/Cache/Cache_Data/index
+/workspace/.browser_data/Default/Cache/Cache_Data/sqldb0
+/workspace/.browser_data/Default/Cache/Cache_Data/sqldb0-wal
+/workspace/.browser_data/Default/Cache/Cache_Data/sqldb1
+/workspace/.browser_data/Default/Cache/Cache_Data/sqldb1-wal
+/workspace/.browser_data/Default/Cache/Cache_Data/sqldb2
+/workspace/.browser_data/Default/Cache/Cache_Data/sqldb2-wal
+/workspace/.browser_data/Default/Cache/No_Vary_Search/journal.baj
+/workspace/.browser_data/Default/Cache/No_Vary_Search/snapshot.baf
+/workspace/.browser_data/Default/ClientCertificates/LOCK
+/workspace/.browser_data/Default/ClientCertificates/LOG
+/workspace/.browser_data/Default/ClientCertificates/LOG.old
+/workspace/.browser_data/Default/Collaboration/MessageDB
+/workspace/.browser_data/Default/Collaboration/MessageDB-journal
+/workspace/.browser_data/Default/Cookies
+/workspace/.browser_data/Default/Cookies-journal
+/workspace/.browser_data/Default/DIPS
+/workspace/.browser_data/Default/DIPS-wal
+/workspace/.browser_data/Default/DataSharing/DataSharingDB
+/workspace/.browser_data/Default/DataSharing/DataSharingDB-journal
+/workspace/.browser_data/Default/DawnGraphiteCache/data_0
+/workspace/.browser_data/Default/DawnGraphiteCache/data_1
+/workspace/.browser_data/Default/DawnGraphiteCache/data_2
+/workspace/.browser_data/Default/DawnGraphiteCache/data_3
+/workspace/.browser_data/Default/DawnGraphiteCache/index
+/workspace/.browser_data/Default/DawnWebGPUCache/data_0
+/workspace/.browser_data/Default/DawnWebGPUCache/data_1
+/workspace/.browser_data/Default/DawnWebGPUCache/data_2
+/workspace/.browser_data/Default/DawnWebGPUCache/data_3
+/workspace/.browser_data/Default/DawnWebGPUCache/index
+/workspace/.browser_data/Default/Extension Rules/000003.log
+/workspace/.browser_data/Default/Extension Rules/CURRENT
+/workspace/.browser_data/Default/Extension Rules/LOCK
+/workspace/.browser_data/Default/Extension Rules/LOG
+/workspace/.browser_data/Default/Extension Rules/MANIFEST-000001
+/workspace/.browser_data/Default/Extension Scripts/000003.log
+/workspace/.browser_data/Default/Extension Scripts/CURRENT
+/workspace/.browser_data/Default/Extension Scripts/LOCK
+/workspace/.browser_data/Default/Extension Scripts/LOG
+/workspace/.browser_data/Default/Extension Scripts/MANIFEST-000001
+/workspace/.browser_data/Default/Extension State/000003.log
+/workspace/.browser_data/Default/Extension State/CURRENT
+/workspace/.browser_data/Default/Extension State/LOCK
+/workspace/.browser_data/Default/Extension State/LOG
+/workspace/.browser_data/Default/Extension State/LOG.old
+/workspace/.browser_data/Default/Extension State/MANIFEST-000001
+/workspace/.browser_data/Default/Favicons
+/workspace/.browser_data/Default/Favicons-journal
+/workspace/.browser_data/Default/Feature Engagement Tracker/AvailabilityDB/LOCK
+/workspace/.browser_data/Default/Feature Engagement Tracker/AvailabilityDB/LOG
+/workspace/.browser_data/Default/Feature Engagement Tracker/AvailabilityDB/LOG.old
+/workspace/.browser_data/Default/Feature Engagement Tracker/EventDB/LOCK
+/workspace/.browser_data/Default/Feature Engagement Tracker/EventDB/LOG
+/workspace/.browser_data/Default/Feature Engagement Tracker/EventDB/LOG.old
+/workspace/.browser_data/Default/GCM Store/000003.log
+/workspace/.browser_data/Default/GCM Store/CURRENT
+/workspace/.browser_data/Default/GCM Store/LOCK
+/workspace/.browser_data/Default/GCM Store/LOG
+/workspace/.browser_data/Default/GCM Store/LOG.old
+/workspace/.browser_data/Default/GCM Store/MANIFEST-000001
+/workspace/.browser_data/Default/GPUCache/data_0
+/workspace/.browser_data/Default/GPUCache/data_1
+/workspace/.browser_data/Default/GPUCache/data_2
+/workspace/.browser_data/Default/GPUCache/data_3
+/workspace/.browser_data/Default/GPUCache/index
+/workspace/.browser_data/Default/History
+/workspace/.browser_data/Default/History-journal
+/workspace/.browser_data/Default/LOCK
+/workspace/.browser_data/Default/LOG
+/workspace/.browser_data/Default/LOG.old
+/workspace/.browser_data/Default/Local Storage/leveldb/000003.log
+/workspace/.browser_data/Default/Local Storage/leveldb/CURRENT
+/workspace/.browser_data/Default/Local Storage/leveldb/LOCK
+/workspace/.browser_data/Default/Local Storage/leveldb/LOG
+/workspace/.browser_data/Default/Local Storage/leveldb/LOG.old
+/workspace/.browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+/workspace/.browser_data/Default/Login Data
+/workspace/.browser_data/Default/Login Data For Account
+/workspace/.browser_data/Default/Login Data For Account-journal
+/workspace/.browser_data/Default/Login Data-journal
+/workspace/.browser_data/Default/Network Action Predictor
+/workspace/.browser_data/Default/Network Action Predictor-journal
+/workspace/.browser_data/Default/Network Persistent State
+/workspace/.browser_data/Default/PersistentOriginTrials/LOCK
+/workspace/.browser_data/Default/PersistentOriginTrials/LOG
+/workspace/.browser_data/Default/PersistentOriginTrials/LOG.old
+/workspace/.browser_data/Default/Preferences
+/workspace/.browser_data/Default/PreferredApps
+/workspace/.browser_data/Default/README
+/workspace/.browser_data/Default/Reporting and NEL
+/workspace/.browser_data/Default/Reporting and NEL-journal
+/workspace/.browser_data/Default/SCT Auditing Pending Reports
+/workspace/.browser_data/Default/Safe Browsing Cookies
+/workspace/.browser_data/Default/Safe Browsing Cookies-journal
+/workspace/.browser_data/Default/Secure Preferences
+/workspace/.browser_data/Default/Segmentation Platform/SegmentInfoDB/LOCK
+/workspace/.browser_data/Default/Segmentation Platform/SegmentInfoDB/LOG
+/workspace/.browser_data/Default/Segmentation Platform/SegmentInfoDB/LOG.old
+/workspace/.browser_data/Default/Segmentation Platform/SignalDB/LOCK
+/workspace/.browser_data/Default/Segmentation Platform/SignalDB/LOG
+/workspace/.browser_data/Default/Segmentation Platform/SignalDB/LOG.old
+/workspace/.browser_data/Default/Segmentation Platform/SignalStorageConfigDB/LOCK
+/workspace/.browser_data/Default/Segmentation Platform/SignalStorageConfigDB/LOG
+/workspace/.browser_data/Default/Segmentation Platform/SignalStorageConfigDB/LOG.old
+/workspace/.browser_data/Default/ServerCertificate
+/workspace/.browser_data/Default/ServerCertificate-journal
+/workspace/.browser_data/Default/Session Storage/000003.log
+/workspace/.browser_data/Default/Session Storage/CURRENT
+/workspace/.browser_data/Default/Session Storage/LOCK
+/workspace/.browser_data/Default/Session Storage/LOG
+/workspace/.browser_data/Default/Session Storage/MANIFEST-000001
+/workspace/.browser_data/Default/Sessions/Session_13422488375534752
+/workspace/.browser_data/Default/Sessions/Tabs_13423483092881942
+/workspace/.browser_data/Default/Shared Dictionary/cache/index
+/workspace/.browser_data/Default/Shared Dictionary/cache/index-dir/the-real-index
+/workspace/.browser_data/Default/Shared Dictionary/db
+/workspace/.browser_data/Default/Shared Dictionary/db-journal
+/workspace/.browser_data/Default/SharedStorage
+/workspace/.browser_data/Default/SharedStorage-wal
+/workspace/.browser_data/Default/Shortcuts
+/workspace/.browser_data/Default/Shortcuts-journal
+/workspace/.browser_data/Default/Site Characteristics Database/000003.log
+/workspace/.browser_data/Default/Site Characteristics Database/CURRENT
+/workspace/.browser_data/Default/Site Characteristics Database/LOCK
+/workspace/.browser_data/Default/Site Characteristics Database/LOG
+/workspace/.browser_data/Default/Site Characteristics Database/LOG.old
+/workspace/.browser_data/Default/Site Characteristics Database/MANIFEST-000001
+/workspace/.browser_data/Default/Sync Data/LevelDB/000003.log
+/workspace/.browser_data/Default/Sync Data/LevelDB/CURRENT
+/workspace/.browser_data/Default/Sync Data/LevelDB/LOCK
+/workspace/.browser_data/Default/Sync Data/LevelDB/LOG
+/workspace/.browser_data/Default/Sync Data/LevelDB/LOG.old
+/workspace/.browser_data/Default/Sync Data/LevelDB/MANIFEST-000001
+/workspace/.browser_data/Default/Top Sites
+/workspace/.browser_data/Default/Top Sites-journal
+/workspace/.browser_data/Default/TransportSecurity
+/workspace/.browser_data/Default/Trust Tokens
+/workspace/.browser_data/Default/Trust Tokens-journal
+/workspace/.browser_data/Default/Web Data
+/workspace/.browser_data/Default/Web Data-journal
+/workspace/.browser_data/Default/chrome_cart_db/LOCK
+/workspace/.browser_data/Default/chrome_cart_db/LOG
+/workspace/.browser_data/Default/chrome_cart_db/LOG.old
+/workspace/.browser_data/Default/commerce_subscription_db/LOCK
+/workspace/.browser_data/Default/commerce_subscription_db/LOG
+/workspace/.browser_data/Default/commerce_subscription_db/LOG.old
+/workspace/.browser_data/Default/discount_infos_db/LOCK
+/workspace/.browser_data/Default/discount_infos_db/LOG
+/workspace/.browser_data/Default/discount_infos_db/LOG.old
+/workspace/.browser_data/Default/discounts_db/LOCK
+/workspace/.browser_data/Default/discounts_db/LOG
+/workspace/.browser_data/Default/discounts_db/LOG.old
+/workspace/.browser_data/Default/heavy_ad_intervention_opt_out.db
+/workspace/.browser_data/Default/heavy_ad_intervention_opt_out.db-journal
+/workspace/.browser_data/Default/optimization_guide_hint_cache_store/LOCK
+/workspace/.browser_data/Default/optimization_guide_hint_cache_store/LOG
+/workspace/.browser_data/Default/optimization_guide_hint_cache_store/LOG.old
+/workspace/.browser_data/Default/parcel_tracking_db/LOCK
+/workspace/.browser_data/Default/parcel_tracking_db/LOG
+/workspace/.browser_data/Default/parcel_tracking_db/LOG.old
+/workspace/.browser_data/Default/passkey_enclave_state
+/workspace/.browser_data/Default/shared_proto_db/000003.log
+/workspace/.browser_data/Default/shared_proto_db/CURRENT
+/workspace/.browser_data/Default/shared_proto_db/LOCK
+/workspace/.browser_data/Default/shared_proto_db/LOG
+/workspace/.browser_data/Default/shared_proto_db/LOG.old
+/workspace/.browser_data/Default/shared_proto_db/MANIFEST-000001
+/workspace/.browser_data/Default/shared_proto_db/metadata/000003.log
+/workspace/.browser_data/Default/shared_proto_db/metadata/CURRENT
+/workspace/.browser_data/Default/shared_proto_db/metadata/LOCK
+/workspace/.browser_data/Default/shared_proto_db/metadata/LOG
+/workspace/.browser_data/Default/shared_proto_db/metadata/LOG.old
+/workspace/.browser_data/Default/shared_proto_db/metadata/MANIFEST-000001
+/workspace/.browser_data/Default/trusted_vault.pb
+/workspace/.browser_data/GPUPersistentCache/GPUCache/DDFHUTC7H3RR4ORK6UUEB74KVNJL2SO5/cache.db
+/workspace/.browser_data/GPUPersistentCache/GPUCache/DDFHUTC7H3RR4ORK6UUEB74KVNJL2SO5/cache.db-wal
+/workspace/.browser_data/GPUPersistentCache/GPUCache/DDFHUTC7H3RR4ORK6UUEB74KVNJL2SO5/cache.journal
+/workspace/.browser_data/GraphiteDawnCache/data_0
+/workspace/.browser_data/GraphiteDawnCache/data_1
+/workspace/.browser_data/GraphiteDawnCache/data_2
+/workspace/.browser_data/GraphiteDawnCache/data_3
+/workspace/.browser_data/GraphiteDawnCache/index
+/workspace/.browser_data/Last Version
+/workspace/.browser_data/Local State
+/workspace/.browser_data/Variations
+/workspace/.browser_data/component_crx_cache/metadata.json
+/workspace/.browser_data/extensions_crx_cache/metadata.json
+/workspace/.browser_data/first_party_sets.db
+/workspace/.browser_data/first_party_sets.db-journal
+/workspace/.browser_data/segmentation_platform/ukm_db
+/workspace/.browser_data/segmentation_platform/ukm_db-wal
+/workspace/.github/workflows/ci-cd.yml
+/workspace/ai_engine/__init__.py
+/workspace/ai_engine/detector.py
+/workspace/ai_engine/lane_detector.py
+/workspace/ai_engine/pipeline.py
+/workspace/ai_engine/speed_estimator.py
+/workspace/ai_engine/tracker.py
+/workspace/backend/.env.example
+/workspace/backend/app/__init__.py
+/workspace/backend/app/api/__init__.py
+/workspace/backend/app/api/v1/__init__.py
+/workspace/backend/app/api/v1/analytics.py
+/workspace/backend/app/api/v1/auth.py
+/workspace/backend/app/api/v1/cameras.py
+/workspace/backend/app/api/v1/reports.py
+/workspace/backend/app/api/v1/router.py
+/workspace/backend/app/api/v1/vehicles.py
+/workspace/backend/app/api/v1/video.py
+/workspace/backend/app/core/__init__.py
+/workspace/backend/app/core/config.py
+/workspace/backend/app/core/security.py
+/workspace/backend/app/db/__init__.py
+/workspace/backend/app/db/session.py
+/workspace/backend/app/main.py
+/workspace/backend/app/models/__init__.py
+/workspace/backend/app/models/camera.py
+/workspace/backend/app/models/detection.py
+/workspace/backend/app/models/speed_log.py
+/workspace/backend/app/models/user.py
+/workspace/backend/app/models/vehicle.py
+/workspace/backend/app/websocket.py
+/workspace/backend/requirements.txt
+/workspace/docker-compose.yml
+/workspace/docker/Dockerfile.backend
+/workspace/docker/Dockerfile.frontend
+/workspace/docker/docker-compose.yml
+/workspace/frontend/.git/COMMIT_EDITMSG
+/workspace/frontend/.git/HEAD
+/workspace/frontend/.git/config
+/workspace/frontend/.git/description
+/workspace/frontend/.git/hooks/applypatch-msg.sample
+/workspace/frontend/.git/hooks/commit-msg.sample
+/workspace/frontend/.git/hooks/fsmonitor-watchman.sample
+/workspace/frontend/.git/hooks/post-update.sample
+/workspace/frontend/.git/hooks/pre-applypatch.sample
+/workspace/frontend/.git/hooks/pre-commit.sample
+/workspace/frontend/.git/hooks/pre-merge-commit.sample
+/workspace/frontend/.git/hooks/pre-push.sample
+/workspace/frontend/.git/hooks/pre-rebase.sample
+/workspace/frontend/.git/hooks/pre-receive.sample
+/workspace/frontend/.git/hooks/prepare-commit-msg.sample
+/workspace/frontend/.git/hooks/push-to-checkout.sample
+/workspace/frontend/.git/hooks/update.sample
+/workspace/frontend/.git/index
+/workspace/frontend/.git/info/exclude
+/workspace/frontend/.git/logs/HEAD
+/workspace/frontend/.git/logs/refs/heads/main
+/workspace/frontend/.git/objects/00/4145cddf3f9db91b57b9cb596683c8eb420862
+/workspace/frontend/.git/objects/05/e726d1b4201bc8c7716d2b058279676582e8c0
+/workspace/frontend/.git/objects/31/854ed388fef60073573c175eed0a246d0fbf4c
+/workspace/frontend/.git/objects/3f/36f7c5c4cfb7fb3c745bfd7d38b2d21a8c441d
+/workspace/frontend/.git/objects/43/c994c2d3617f947bcb5adf1933e21dabe46bb5
+/workspace/frontend/.git/objects/51/74b28c565c285e3e312ec5178be64fbeca8398
+/workspace/frontend/.git/objects/52/0a6378500902b888f6d381a0d32211d45b5047
+/workspace/frontend/.git/objects/56/7f17b0d7c7fb662c16d4357dd74830caf2dccb
+/workspace/frontend/.git/objects/5e/f6a520780202a1d6addd833d800ccb1ecac0bb
+/workspace/frontend/.git/objects/61/e36849cf7cfa9f1f71b4a3964a4953e3e243d3
+/workspace/frontend/.git/objects/71/8d6fea4835ec2d246af9800eddb7ffb276240c
+/workspace/frontend/.git/objects/77/053960334e2e34dc584dea8019925c3b4ccca9
+/workspace/frontend/.git/objects/8b/d0e39085d5260e7f8faffcad2fdc45e10aef33
+/workspace/frontend/.git/objects/8f/8d07d25a701cc0879222fe43f135f700c03654
+/workspace/frontend/.git/objects/97/6eb90df142ef2c4f3f39cee8b0e4c4f4771b62
+/workspace/frontend/.git/objects/99/87746a486e746a214268395fc39014ac22258b
+/workspace/frontend/.git/objects/a2/dc41ecee5ec435200fe7cba2bde4107f823774
+/workspace/frontend/.git/objects/ab/ddab74a6455b8e759cddbd6d55fa0eb060b319
+/workspace/frontend/.git/objects/b2/b2a44f6ebc70c450043c05a002e7a93ba5d651
+/workspace/frontend/.git/objects/c8/8f389de09f418da376598c42e8788d4fb6d172
+/workspace/frontend/.git/objects/ce/3cfc0f91c0fcd73e27e9fea3c94c23e0fcc3ce
+/workspace/frontend/.git/objects/cf/9c65d3e0676a0169374d827f7abb97497789ef
+/workspace/frontend/.git/objects/e2/15bc4ccf138bbc38ad58ad57e92135484b3c0f
+/workspace/frontend/.git/objects/e9/ffa3083ad279ecf95fd8eae59cb253e9a539c4
+/workspace/frontend/.git/refs/heads/main
+/workspace/frontend/.gitignore
+/workspace/frontend/AGENTS.md
+/workspace/frontend/CLAUDE.md
+/workspace/frontend/README.md
+/workspace/frontend/components.json
+/workspace/frontend/eslint.config.mjs
+/workspace/frontend/next-env.d.ts
+/workspace/frontend/next.config.ts
+/workspace/frontend/package-lock.json
+/workspace/frontend/package.json
+/workspace/frontend/postcss.config.mjs
+/workspace/frontend/public/file.svg
+/workspace/frontend/public/globe.svg
+/workspace/frontend/public/next.svg
+/workspace/frontend/public/vercel.svg
+/workspace/frontend/public/window.svg
+/workspace/frontend/src/app/(dashboard)/admin/page.tsx
+/workspace/frontend/src/app/(dashboard)/analytics/page.tsx
+/workspace/frontend/src/app/(dashboard)/camera/page.tsx
+/workspace/frontend/src/app/(dashboard)/dashboard/page.tsx
+/workspace/frontend/src/app/(dashboard)/layout.tsx
+/workspace/frontend/src/app/(dashboard)/monitor/page.tsx
+/workspace/frontend/src/app/(dashboard)/settings/page.tsx
+/workspace/frontend/src/app/(dashboard)/upload/page.tsx
+/workspace/frontend/src/app/(dashboard)/vehicles/page.tsx
+/workspace/frontend/src/app/favicon.ico
+/workspace/frontend/src/app/globals.css
+/workspace/frontend/src/app/layout.tsx
+/workspace/frontend/src/app/login/page.tsx
+/workspace/frontend/src/app/page.tsx
+/workspace/frontend/src/app/register/page.tsx
+/workspace/frontend/src/components/layout/navbar.tsx
+/workspace/frontend/src/components/layout/sidebar.tsx
+/workspace/frontend/src/components/providers/query-provider.tsx
+/workspace/frontend/src/components/providers/theme-provider.tsx
+/workspace/frontend/src/components/providers/toast-provider.tsx
+/workspace/frontend/src/components/ui/avatar.tsx
+/workspace/frontend/src/components/ui/badge.tsx
+/workspace/frontend/src/components/ui/button.tsx
+/workspace/frontend/src/components/ui/card.tsx
+/workspace/frontend/src/components/ui/dialog.tsx
+/workspace/frontend/src/components/ui/dropdown-menu.tsx
+/workspace/frontend/src/components/ui/input.tsx
+/workspace/frontend/src/components/ui/label.tsx
+/workspace/frontend/src/components/ui/progress.tsx
+/workspace/frontend/src/components/ui/select.tsx
+/workspace/frontend/src/components/ui/separator.tsx
+/workspace/frontend/src/components/ui/sheet.tsx
+/workspace/frontend/src/components/ui/skeleton.tsx
+/workspace/frontend/src/components/ui/switch.tsx
+/workspace/frontend/src/components/ui/tabs.tsx
+/workspace/frontend/src/components/ui/tooltip.tsx
+/workspace/frontend/src/lib/api.ts
+/workspace/frontend/src/lib/hooks.ts
+/workspace/frontend/src/lib/store.ts
+/workspace/frontend/src/lib/utils.ts
+/workspace/frontend/tsconfig.json
+/workspace/memory.md
+/workspace/nginx/nginx.conf
+/workspace/outputs/workspace_output_1779009505_1710.txt
+/workspace/outputs/workspace_output_1779010162_7146.txt
+/workspace/outputs/workspace_output_1779010200_6538.txt
+/workspace/outputs/workspace_output_1779010211_3468.txt
+/workspace/outputs/workspace_output_1779010220_9118.txt
+/workspace/outputs/workspace_output_1779010247_1497.txt
+/workspace/outputs/workspace_output_1779010586_7900.txt
+/workspace/outputs/workspace_output_1779010589_951.txt
+/workspace/outputs/workspace_output_1779011414_2546.txt
+/workspace/outputs/workspace_output_1779011414_9777.txt
+/workspace/outputs/workspace_output_1779011418_7793.txt
+/workspace/todo.md

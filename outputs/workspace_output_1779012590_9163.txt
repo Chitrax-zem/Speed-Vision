@@ -1,0 +1,43 @@
+
+> frontend@0.1.0 build
+> next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+▲ Next.js 16.2.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 10.0s
+  Running TypeScript ...
+Failed to type check.
+
+./src/app/(dashboard)/analytics/page.tsx:151:19
+Type error: No overload matches this call.
+  Overload 1 of 2, '(outsideProps: Props<{ name: string; count: number; avgSpeed: number; color: string; }, any>): ReactElement<unknown, string | JSXElementConstructor<any>>', gave the following error.
+    Type '({ name, percent }: { name: string; percent?: number; }) => string' is not assignable to type 'PieLabel | undefined'.
+      Type '({ name, percent }: { name: string; percent?: number; }) => string' is not assignable to type '(props: PieLabelRenderProps) => ReactNode | ReactElement<SVGElement, string | JSXElementConstructor<any>>'.
+        Types of parameters '__0' and 'props' are incompatible.
+          Type 'PieLabelRenderProps' is not assignable to type '{ name: string; percent?: number | undefined; }'.
+            Types of property 'name' are incompatible.
+              Type 'string | undefined' is not assignable to type 'string'.
+                Type 'undefined' is not assignable to type 'string'.
+  Overload 2 of 2, '(outsideProps: Props<any, any>): ReactElement<unknown, string | JSXElementConstructor<any>>', gave the following error.
+    Type '({ name, percent }: { name: string; percent?: number; }) => string' is not assignable to type 'PieLabel | undefined'.
+      Type '({ name, percent }: { name: string; percent?: number; }) => string' is not assignable to type '(props: PieLabelRenderProps) => ReactNode | ReactElement<SVGElement, string | JSXElementConstructor<any>>'.
+        Types of parameters '__0' and 'props' are incompatible.
+          Type 'PieLabelRenderProps' is not assignable to type '{ name: string; percent?: number | undefined; }'.
+            Types of property 'name' are incompatible.
+              Type 'string | undefined' is not assignable to type 'string'.
+                Type 'undefined' is not assignable to type 'string'.
+
+  [90m149 |[0m                   innerRadius={[35m55[0m}
+  [90m150 |[0m                   dataKey=[32m"count"[0m
+[31m[1m>[0m [90m151 |[0m                   label={({ name, percent }: { name: string; percent?: number }) => [32m`[0m${na..[32m.[0m
+  [90m    |[0m                   [31m[1m^[0m
+  [90m152 |[0m                 >
+  [90m153 |[0m                   {vehicleTypeData.map((entry, i) => (
+  [90m154 |[0m                     <[33mCell[0m key={i} fill={entry.color} />
+Next.js build worker exited with code: 1 and signal: null
