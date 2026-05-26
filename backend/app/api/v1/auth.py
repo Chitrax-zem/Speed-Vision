@@ -63,7 +63,8 @@ async def register(request: RegisterRequest, db: AsyncSession = Depends(get_db))
         role=UserRole.viewer
     )
     db.add(user)
-    await db.flush()
+    await db.commit()
+    await db.refresh(user)
 
     access_token = create_access_token(data={"sub": user.id, "role": user.role})
     refresh_token = create_refresh_token(data={"sub": user.id})
