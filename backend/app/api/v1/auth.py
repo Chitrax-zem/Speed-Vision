@@ -66,8 +66,8 @@ async def register(request: RegisterRequest, db: AsyncSession = Depends(get_db))
     await db.commit()
     await db.refresh(user)
 
-    access_token = create_access_token(data={"sub": user.id, "role": user.role})
-    refresh_token = create_refresh_token(data={"sub": user.id})
+    access_token = create_access_token(data={"sub": str(user.id), "role": str(user.role)})
+    refresh_token = create_refresh_token(data={"sub": str(user.id)})
 
     return TokenResponse(
         access_token=access_token,
@@ -78,7 +78,7 @@ async def register(request: RegisterRequest, db: AsyncSession = Depends(get_db))
             "email": user.email,
             "username": user.username,
             "full_name": user.full_name,
-            "role": user.role,
+            "role": str(user.role),
         }
     )
 
